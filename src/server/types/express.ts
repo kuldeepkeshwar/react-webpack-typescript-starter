@@ -5,7 +5,5 @@ export interface IExpressRequest extends Request {
   session: any;
 }
 
-// #TODO - need to remove
-export interface IExpressResponse extends Response {
-  test?: any;
-}
+/* tslint:disable */
+export interface IExpressResponse extends Response {}

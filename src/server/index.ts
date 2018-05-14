@@ -4,6 +4,7 @@ import * as bodyParser from 'body-parser';
 import * as helmet from 'helmet';
 import api from 'routes/api';
 import pages from 'routes/pages';
+import 'config/axios-interceptor';
 
 const app = express();
 const portNumber = 3000;

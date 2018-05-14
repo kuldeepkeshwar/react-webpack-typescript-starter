@@ -1,0 +1,37 @@
+{
+  "hostname": "",
+  "app": {
+    "baseUrl": "https://test.com",
+    "name": "test",
+    "routes": {
+      "landingPage": "/dashboard",
+      "logout": "/logout",
+      "passcode": "/set-pass-code"
+    }
+  },
+  "logDir": "/var/log/appName",
+  "database": {
+    "username": "",
+    "password": "",
+    "database": "cbp",
+    "host": "localhost",
+    "dialect": "mysql",
+    "pool": {
+      "max": 10,
+      "min": 2,
+      "idle": 10000
+    }
+  },
+  "session": {
+    "name": "cb-tk",
+    "secret": ""
+  },
+  "tempUploadDir": "/var/tmp/tempUpload",
+  "serviceConfig": {
+    "clientId": "",
+    "clientSecret": "",
+    "scope": "paytm",
+    "username": "",
+    "password": ""
+  }
+}
