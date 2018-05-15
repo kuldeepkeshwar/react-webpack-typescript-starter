@@ -1,5 +1,5 @@
 import styledComponents from 'styled-components';
-import {} from 'test';
+
 interface IButton {
   primary?: boolean;
 }

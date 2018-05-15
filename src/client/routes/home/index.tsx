@@ -1,12 +1,14 @@
 import * as React from 'react';
 import { Button } from 'components/Button';
 import { Wrapper } from 'components/Wrapper';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
     <Wrapper>
-      <Button>Normal Button</Button>
-      <Button primary>Primary Button</Button>
+      <Link to='/counter'>
+        <Button primary>Check the Counter Example</Button>
+      </Link>
     </Wrapper>
   );
 };
